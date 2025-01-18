@@ -1,0 +1,109 @@
+{
+    "tags": {
+        "costcenter": {
+            "tag_key": {
+                "@@operators_allowed_for_child_policies": [
+                    "@@none"
+                ],
+                "@@assign": "CostCenter"
+            },
+            "tag_value": {
+                "@@operators_allowed_for_child_policies": [
+                    "@@none"
+                ],
+                "@@assign": [
+                    "100",
+                    "200"
+                ]
+            },
+            "enforced_for": {
+                "@@assign": [
+                    "ec2:instance",
+                    "s3:bucket",
+                    "dynamodb:table",
+                    "lambda:function",
+                    "secretsmanager:secret"
+                ]
+            }
+        },
+        "environment": {
+            "tag_key": {
+                "@@operators_allowed_for_child_policies": [
+                    "@@none"
+                ],
+                "@@assign": "Environment"
+            },
+            "tag_value": {
+                "@@operators_allowed_for_child_policies": [
+                    "@@none"
+                ],
+                "@@assign": [
+                    "Production",
+                    "Staging",
+                    "Testing",
+                    "Development"
+                ]
+            },
+            "enforced_for": {
+                "@@assign": [
+                    "ec2:instance",
+                    "s3:bucket",
+                    "dynamodb:table",
+                    "lambda:function",
+                    "secretsmanager:secret"
+                ]
+            }
+        },
+        "owner": {
+            "tag_key": {
+                "@@operators_allowed_for_child_policies": [
+                    "@@none"
+                ],
+                "@@assign": "Owner"
+            },
+            "tag_value": {
+                "@@operators_allowed_for_child_policies": [
+                    "@@none"
+                ],
+                "@@assign": [
+                    "John Doe",
+                    "DevOps Team"
+                ]
+            },
+            "enforced_for": {
+                "@@assign": [
+                    "ec2:instance",
+                    "s3:bucket",
+                    "dynamodb:table",
+                    "lambda:function",
+                    "secretsmanager:secret"
+                ]
+            }
+        },
+        "project": {
+            "tag_key": {
+                "@@operators_allowed_for_child_policies": [
+                    "@@none"
+                ],
+                "@@assign": "Project"
+            },
+            "tag_value": {
+                "@@operators_allowed_for_child_policies": [
+                    "@@none"
+                ],
+                "@@assign": [
+                    "CustomerPortal"
+                ]
+            },
+            "enforced_for": {
+                "@@assign": [
+                    "ec2:instance",
+                    "s3:bucket",
+                    "dynamodb:table",
+                    "lambda:function",
+                    "secretsmanager:secret"
+                ]
+            }
+        }
+    }
+}
