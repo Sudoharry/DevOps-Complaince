@@ -57,7 +57,7 @@
 ### 19. Excessive Number of Security Groups
 - Security groups created for specific purposes but not deleted, causing clutter and management complexity.
 
-###20. Neglected Savings Plans or Spot Instances
+### 20. Neglected Savings Plans or Spot Instances
 - Opportunities for cost-saving plans or spot instances ignored due to lack of tracking or analysis.
 
  Solutions for Cost Optimization
