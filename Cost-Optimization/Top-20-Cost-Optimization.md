@@ -1,4 +1,4 @@
- Top 20 cost optimization challenges that a DevOps engineer might face when managing resources on the cloud:
+## Top 20 cost optimization challenges that a DevOps engineer might face when managing resources on the cloud:
 
 ### 1. Idle EC2 Instances
 - Instances running with little or no utilization for extended periods, leading to unnecessary costs.
