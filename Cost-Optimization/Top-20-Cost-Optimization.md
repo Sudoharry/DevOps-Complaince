@@ -60,7 +60,7 @@
 ### 20. Neglected Savings Plans or Spot Instances
 - Opportunities for cost-saving plans or spot instances ignored due to lack of tracking or analysis.
 
- Solutions for Cost Optimization
+ ## Solutions for Cost Optimization
  1) Automation with Tools: Use tools like AWS Cost Explorer, Trusted Advisor, and third-party solutions (e.g., CloudHealth, Spot.io) to identify and optimize resources.
  2) Tagging Policies: Enforce consistent tagging (e.g., owner, environment, purpose) to track resource usage.
  3) Resource Cleanup Scripts: Automate cleanup for unused resources like EBS, ELB, or snapshots.
